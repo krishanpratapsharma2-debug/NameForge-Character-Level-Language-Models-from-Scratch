@@ -23,13 +23,10 @@ The primary goal of this project is to develop a deep understanding of how moder
 NameForge/
 │
 ├── part1_bigram/
-│   └── bigram.ipynb
-│
-├── part2_mlp/
-│   └── mlp.ipynb
+│   └── bigram.py
 │
 ├── part3_batchnorm/
-│   └── batchnorm.ipynb
+│   └── batchnorm.py
 │
 ├── part4_backprop/
 │   └── backprop.ipynb
@@ -153,15 +150,7 @@ Special thanks to Andrej Karpathy for making deep learning concepts accessible t
 
 ---
 
-## Future Improvements
 
-- Transformer-based language model
-- Attention mechanisms
-- Model evaluation metrics
-- Web interface for name generation
-- Deployment with FastAPI and Docker
-
----
 
 ## Author
 
