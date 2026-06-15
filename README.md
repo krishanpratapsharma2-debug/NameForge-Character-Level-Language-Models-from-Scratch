@@ -29,13 +29,12 @@ NameForge/
 │   └── batchnorm.py
 │
 ├── part4_backprop/
-│   └── backprop.ipynb
+│   └── backprop.py
 │
 ├── part5_wavenet/
-│   └── wavenet.ipynb
+│   └── wavenet.py
 │
 ├── names.txt
-├── requirements.txt
 └── README.md
 ```
 
