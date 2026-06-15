@@ -75,12 +75,33 @@ NameForge/
 ## Results
 
 ### Generated Names
+arlij.
+chetta.
+heago.
+rocklei.
+hendrix.
+jamylie.
+broxin.
+denish.
+anslibt.
+marianah.
+astavia.
+annayve.
+aniah.
+jayce.
+nodiel.
+remita.
+niyelle.
+jaylene.
+aiyan.
+aubreana.
 
-![Generated Names](assets/generated_names.png)
+| Metric | Loss |
+|---------|---------|
+| Training Loss | 1.769 |
+| Validation Loss | 1.994 |
 
-### Training Curve
-
-![Loss Curve](assets/loss_curve.png)
+The model successfully learns character-level patterns in names and generates realistic outputs by predicting the next character given a context window. Performance improves significantly compared to the initial Bigram baseline as more sophisticated neural architectures are introduced.
 
 
 
