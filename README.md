@@ -74,34 +74,39 @@ NameForge/
 
 ## Results
 
+### Model Performance
+
+| Dataset | Loss |
+|----------|----------|
+| Train | 1.769 |
+| Validation | 1.994 |
+
 ### Generated Names
-arlij.
-chetta.
-heago.
-rocklei.
-hendrix.
-jamylie.
-broxin.
-denish.
-anslibt.
-marianah.
-astavia.
-annayve.
-aniah.
-jayce.
-nodiel.
-remita.
-niyelle.
-jaylene.
-aiyan.
-aubreana.
 
-| Metric | Loss |
-|---------|---------|
-| Training Loss | 1.769 |
-| Validation Loss | 1.994 |
+```text
+arlij
+chetta
+heago
+rocklei
+hendrix
+jamylie
+broxin
+denish
+anslibt
+marianah
+astavia
+annayve
+aniah
+jayce
+nodiel
+remita
+niyelle
+jaylene
+aiyan
+aubreana
+```
 
-The model successfully learns character-level patterns in names and generates realistic outputs by predicting the next character given a context window. Performance improves significantly compared to the initial Bigram baseline as more sophisticated neural architectures are introduced.
+The model learns character-level patterns from a dataset of names and generates novel names that resemble realistic human names while remaining unique. As the architecture progresses from a Bigram model to a WaveNet-inspired network, the generated outputs become increasingly coherent and natural.
 
 
 
