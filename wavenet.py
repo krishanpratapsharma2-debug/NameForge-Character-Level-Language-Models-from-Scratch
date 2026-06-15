@@ -61,7 +61,6 @@ Xte,  Yte  = build_dataset(words[n2:])     # 10%
 for x,y in zip(Xtr[:20], Ytr[:20]):
   print(''.join(itos[ix.item()] for ix in x), '-->', itos[y.item()])
 
-# Near copy paste of the layers we have developed in Part 3
 
 # -----------------------------------------------------------------------------------------------
 class Linear:
@@ -283,19 +282,7 @@ for _ in range(20):
 
     print(''.join(itos[i] for i in out)) # decode and print the generated word
 
-"""### Next time:
-Why convolutions? Brief preview/hint
-"""
 
 for x,y in zip(Xtr[7:15], Ytr[7:15]):
   print(''.join(itos[ix.item()] for ix in x), '-->', itos[y.item()])
 
-# forward a single example:
-logits = model(Xtr[[7]])
-logits.shape
-
-# forward all of them
-logits = torch.zeros(8, 27)
-for i in range(8):
-  logits[i] = model(Xtr[[7+i]])
-logits.shape
